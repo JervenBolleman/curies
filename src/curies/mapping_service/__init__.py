@@ -30,7 +30,7 @@ The idea here is that you can write a SPARQL query like the following:
         # The third part of this query gets links between UniProt proteins and their
         # domains. Since the service maps between the BioModels query, this only gets
         # us relevant protein domains to the insulin/glucose model.
-        SERVICE <http://beta.sparql.uniprot.org/sparql> {
+        SERVICE <https://sparql.uniprot.org/sparql> {
             ?uniprot_protein a up:Protein;
                 up:organism taxon:9606;
                 rdfs:seeAlso ?protein_domain.
